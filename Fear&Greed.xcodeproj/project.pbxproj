@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8B8258912DA816A000C8C530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B82587A2DA8169F00C8C530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8258812DA8169F00C8C530;
+			remoteInfo = "Fear&Greed";
+		};
+		8B82589B2DA816A000C8C530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B82587A2DA8169F00C8C530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8258812DA8169F00C8C530;
+			remoteInfo = "Fear&Greed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B8258822DA8169F00C8C530 /* Fear&Greed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fear&Greed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8258902DA816A000C8C530 /* Fear&GreedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fear&GreedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B82589A2DA816A000C8C530 /* Fear&GreedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fear&GreedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8B8258842DA8169F00C8C530 /* Fear&Greed */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fear&Greed";
+			sourceTree = "<group>";
+		};
+		8B8258932DA816A000C8C530 /* Fear&GreedTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fear&GreedTests";
+			sourceTree = "<group>";
+		};
+		8B82589D2DA816A000C8C530 /* Fear&GreedUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fear&GreedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B82587F2DA8169F00C8C530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B82588D2DA816A000C8C530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8258972DA816A000C8C530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B8258792DA8169F00C8C530 = {
+			isa = PBXGroup;
+			children = (
+				8B8258842DA8169F00C8C530 /* Fear&Greed */,
+				8B8258932DA816A000C8C530 /* Fear&GreedTests */,
+				8B82589D2DA816A000C8C530 /* Fear&GreedUITests */,
+				8B8258832DA8169F00C8C530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8258832DA8169F00C8C530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8258822DA8169F00C8C530 /* Fear&Greed.app */,
+				8B8258902DA816A000C8C530 /* Fear&GreedTests.xctest */,
+				8B82589A2DA816A000C8C530 /* Fear&GreedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B8258812DA8169F00C8C530 /* Fear&Greed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8258A42DA816A000C8C530 /* Build configuration list for PBXNativeTarget "Fear&Greed" */;
+			buildPhases = (
+				8B82587E2DA8169F00C8C530 /* Sources */,
+				8B82587F2DA8169F00C8C530 /* Frameworks */,
+				8B8258802DA8169F00C8C530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8B8258842DA8169F00C8C530 /* Fear&Greed */,
+			);
+			name = "Fear&Greed";
+			packageProductDependencies = (
+			);
+			productName = "Fear&Greed";
+			productReference = 8B8258822DA8169F00C8C530 /* Fear&Greed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B82588F2DA816A000C8C530 /* Fear&GreedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8258A72DA816A000C8C530 /* Build configuration list for PBXNativeTarget "Fear&GreedTests" */;
+			buildPhases = (
+				8B82588C2DA816A000C8C530 /* Sources */,
+				8B82588D2DA816A000C8C530 /* Frameworks */,
+				8B82588E2DA816A000C8C530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B8258922DA816A000C8C530 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8B8258932DA816A000C8C530 /* Fear&GreedTests */,
+			);
+			name = "Fear&GreedTests";
+			packageProductDependencies = (
+			);
+			productName = "Fear&GreedTests";
+			productReference = 8B8258902DA816A000C8C530 /* Fear&GreedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B8258992DA816A000C8C530 /* Fear&GreedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8258AA2DA816A000C8C530 /* Build configuration list for PBXNativeTarget "Fear&GreedUITests" */;
+			buildPhases = (
+				8B8258962DA816A000C8C530 /* Sources */,
+				8B8258972DA816A000C8C530 /* Frameworks */,
+				8B8258982DA816A000C8C530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B82589C2DA816A000C8C530 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8B82589D2DA816A000C8C530 /* Fear&GreedUITests */,
+			);
+			name = "Fear&GreedUITests";
+			packageProductDependencies = (
+			);
+			productName = "Fear&GreedUITests";
+			productReference = 8B82589A2DA816A000C8C530 /* Fear&GreedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B82587A2DA8169F00C8C530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8B8258812DA8169F00C8C530 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					8B82588F2DA816A000C8C530 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8B8258812DA8169F00C8C530;
+					};
+					8B8258992DA816A000C8C530 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8B8258812DA8169F00C8C530;
+					};
+				};
+			};
+			buildConfigurationList = 8B82587D2DA8169F00C8C530 /* Build configuration list for PBXProject "Fear&Greed" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B8258792DA8169F00C8C530;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8B8258832DA8169F00C8C530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B8258812DA8169F00C8C530 /* Fear&Greed */,
+				8B82588F2DA816A000C8C530 /* Fear&GreedTests */,
+				8B8258992DA816A000C8C530 /* Fear&GreedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B8258802DA8169F00C8C530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B82588E2DA816A000C8C530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8258982DA816A000C8C530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B82587E2DA8169F00C8C530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B82588C2DA816A000C8C530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8258962DA816A000C8C530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B8258922DA816A000C8C530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8258812DA8169F00C8C530 /* Fear&Greed */;
+			targetProxy = 8B8258912DA816A000C8C530 /* PBXContainerItemProxy */;
+		};
+		8B82589C2DA816A000C8C530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8258812DA8169F00C8C530 /* Fear&Greed */;
+			targetProxy = 8B82589B2DA816A000C8C530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B8258A22DA816A000C8C530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B8258A32DA816A000C8C530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8B8258A52DA816A000C8C530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fear&Greed/Fear_Greed.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Baytree Labs";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baytreelabs.Fear-Greed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B8258A62DA816A000C8C530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fear&Greed/Fear_Greed.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Baytree Labs";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baytreelabs.Fear-Greed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8B8258A82DA816A000C8C530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baytreelabs.Fear-GreedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fear&Greed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fear&Greed";
+			};
+			name = Debug;
+		};
+		8B8258A92DA816A000C8C530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baytreelabs.Fear-GreedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fear&Greed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fear&Greed";
+			};
+			name = Release;
+		};
+		8B8258AB2DA816A000C8C530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baytreelabs.Fear-GreedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fear&Greed";
+			};
+			name = Debug;
+		};
+		8B8258AC2DA816A000C8C530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baytreelabs.Fear-GreedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fear&Greed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B82587D2DA8169F00C8C530 /* Build configuration list for PBXProject "Fear&Greed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8258A22DA816A000C8C530 /* Debug */,
+				8B8258A32DA816A000C8C530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8258A42DA816A000C8C530 /* Build configuration list for PBXNativeTarget "Fear&Greed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8258A52DA816A000C8C530 /* Debug */,
+				8B8258A62DA816A000C8C530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8258A72DA816A000C8C530 /* Build configuration list for PBXNativeTarget "Fear&GreedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8258A82DA816A000C8C530 /* Debug */,
+				8B8258A92DA816A000C8C530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8258AA2DA816A000C8C530 /* Build configuration list for PBXNativeTarget "Fear&GreedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8258AB2DA816A000C8C530 /* Debug */,
+				8B8258AC2DA816A000C8C530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B82587A2DA8169F00C8C530 /* Project object */;
+}
