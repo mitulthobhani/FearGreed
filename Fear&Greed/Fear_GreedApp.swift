@@ -1,14 +1,7 @@
-//
-//  Fear_GreedApp.swift
-//  Fear&Greed
-//
-//  Created by Mitul Thobhani on 10/04/2025.
-//
-
 import SwiftUI
 
 @main
-struct Fear_GreedApp: App {
+struct CryptoFearGreedWidgetApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
