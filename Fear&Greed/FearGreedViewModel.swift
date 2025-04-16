@@ -8,16 +8,13 @@ class FearGreedViewModel: ObservableObject {
     
     init() {
         fetchData()
-        timer = Timer.scheduledTimer(withTimeInterval: 1800, repeats: true) { [weak self] _ in
-            self?.fetchData()
-        }
     }
     
     deinit {
         timer?.invalidate()
     }
     
-    private func fetchData() {
+    func fetchData() {
         guard let url = URL(string: "https://api.alternative.me/fng/?limit=7") else { return }
         
         URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
